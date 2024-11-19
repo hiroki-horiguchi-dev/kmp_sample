@@ -1,4 +1,3 @@
-import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
@@ -43,6 +42,7 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
+            implementation(libs.kotlinx.datetime)
         }
     }
 }
@@ -75,6 +75,10 @@ android {
 }
 
 dependencies {
+    implementation(libs.places)
+    implementation(libs.androidx.media3.common.ktx)
+    implementation(libs.androidx.ui.text.android)
+    implementation(libs.androidx.ui.android)
     debugImplementation(compose.uiTooling)
 }
 
