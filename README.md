@@ -12,3 +12,12 @@ This is a Kotlin Multiplatform project targeting Android, iOS.
 
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+
+# 目的
+- KMP チュートリアルを Intelli J Fleet を使ってやってみる
+
+# 感想
+- まだまだよくわかってないので、サンプルプロジェクトを落として読み込んでいく
+- [Alkaa 3.0 - マルチプラットフォーム](https://github.com/igorescodro/alkaa) を参考に API 通信、DB を用いた永続化、Tarbin を使った遷移、Koin を使った DI について学ぶ
+- Fleet は VSCode と比較して、早いとは感じなかった
+- vim をまだ有効にできてなくて色々といじりづらいので入れられる方法を調べる
